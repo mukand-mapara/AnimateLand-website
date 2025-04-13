@@ -17,13 +17,6 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
-
-```bash
-# git clone https://github.com//Animated-Website.git
-# cd Animated-Website
-```
-
 **Installation**
 
 Install the project dependencies using npm:
@@ -40,9 +33,8 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
 
-<details>
+<!-- <details>
 <summary><code>index.css</code></summary>
 
 ```css
@@ -353,10 +345,10 @@ const RoundedCorners = () => {
 export default RoundedCorners;
 ```
 
-</details>
+</details> -->
 
 ## <a name="links">🔗 Assets</a>
 
-Assets used in the project can be found [here](https://drive.google.com/file/d/12hCVnanOAUmM1vzz2dTWZ_uEFGG8xDcT/view?usp=sharing)
+Curious about the visuals and tools behind this project? [Check them out here](https://drive.google.com/file/d/12hCVnanOAUmM1vzz2dTWZ_uEFGG8xDcT/view?usp=sharing)
 
 > This project uses some assets and fonts from **[Zentry](https://zentry.com/)** purely for educational and demonstration purposes. All rights to these assets and fonts belong to their respective owners. If you plan to use this project commercially or publicly, please replace these assets and fonts with ones you own or have permission to use. This project is not affiliated with or endorsed by **[Zentry](https://zentry.com/)**.
