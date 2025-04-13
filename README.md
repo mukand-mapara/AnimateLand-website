@@ -1,5 +1,9 @@
 <!-- ![Demo App](/public/img/Animated-Website-Mobile-Devices-Mockup.png) -->
-![Demo App](/public/img/Animated-Website-Mockup.png)
+<!-- ![Demo App](/public/img/Animated-Website-Mockup.png) -->
+
+![Demo App](/public/img/gallery-1.webp)
+![Demo App](/public/img/contact-1.webp)
+![Demo App](/public/img/about.webp)
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -323,7 +327,7 @@ body {
   <summary><code>components/RoundedCorners.jsx</code></summary>
 
 ```js
-import React from 'react'
+import React from "react";
 
 const RoundedCorners = () => {
   return (
@@ -333,28 +337,20 @@ const RoundedCorners = () => {
     >
       <defs>
         <filter id="flt_tag">
-          <feGaussianBlur
-            in="SourceGraphic"
-            stdDeviation="8"
-            result="blur"
-          />
+          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
           <feColorMatrix
             in="blur"
             mode="matrix"
             values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
             result="flt_tag"
           />
-          <feComposite
-            in="SourceGraphic"
-            in2="flt_tag"
-            operator="atop"
-          />
+          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop" />
         </filter>
       </defs>
     </svg>
-  )
-}
-export default RoundedCorners
+  );
+};
+export default RoundedCorners;
 ```
 
 </details>
