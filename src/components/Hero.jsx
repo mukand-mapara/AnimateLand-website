@@ -86,9 +86,7 @@ const Hero = () => {
     });
   });
 
-  const getVideoSrc = (index) =>
-    `https://animate-land-videos.public.blob.vercel-storage.com/hero-${index}.webm`;
-
+  const getVideoSrc = (index) => `videos/hero-${index}.webm`;
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {/* {isLoading && (
@@ -114,7 +112,6 @@ const Hero = () => {
               <video
                 ref={nextVideoRef}
                 src={getVideoSrc(upcomingVideoIndex)}
-                preload="none"
                 loop
                 muted
                 id="current-video"
@@ -135,7 +132,6 @@ const Hero = () => {
                 </button>
                 <video
                   src={getVideoSrc(currentIndex)}
-                  preload="none"
                   autoPlay
                   loop
                   controls
@@ -149,7 +145,6 @@ const Hero = () => {
             src={getVideoSrc(
               currentIndex === totalVideos - 1 ? 1 : currentIndex
             )}
-            preload="none"
             autoPlay
             loop
             muted

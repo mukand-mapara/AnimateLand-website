@@ -67,7 +67,7 @@ const Features = () => {
 
         <BentoTilt className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
           <BentoCard
-            src="videos/feature-1.mp4"
+            src="videos/feature-1.webm"
             title={
               <>
                 radia<b>n</b>t
@@ -80,7 +80,7 @@ const Features = () => {
         <div className='grid h-[135vh] grid-cols-2 grid-rows-3 gap-7'>
           <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2'>
             <BentoCard
-              src="videos/feature-2.mp4"
+              src="videos/feature-2.webm"
               title={<>
                 zig<b>m</b>a
               </>}
@@ -90,7 +90,7 @@ const Features = () => {
 
           <BentoTilt className='bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0'>
             <BentoCard
-              src="videos/feature-3.mp4"
+              src="videos/feature-3.webm"
               title={
                 <>
                   n<b>e</b>xus
@@ -102,7 +102,7 @@ const Features = () => {
 
           <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
             <BentoCard
-              src="videos/feature-4.mp4"
+              src="videos/feature-4.webm"
               title={
                 <>
                   az<b>u</b>re
@@ -122,7 +122,7 @@ const Features = () => {
 
           <BentoTilt className='bento-tilt_2'>
             <video
-              src='videos/feature-5.mp4'
+              src='videos/feature-5.webm'
               loop
               muted
               autoPlay
