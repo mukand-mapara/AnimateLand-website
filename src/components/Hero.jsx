@@ -14,7 +14,7 @@ const Hero = () => {
   const [loadedVideos, setLoadedVideos] = useState(0);
   const [showModal, setShowModal] = useState(false);
 
-  const totalVideos = 4;
+  const totalVideos = 5;
 
   const nextVideoRef = useRef(null);
 
@@ -86,7 +86,9 @@ const Hero = () => {
     });
   });
 
-  const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
+  const getVideoSrc = (index) =>
+    `https://animate-land-videos.public.blob.vercel-storage.com/hero-${index}.webm`;
+
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {/* {isLoading && (
@@ -112,6 +114,7 @@ const Hero = () => {
               <video
                 ref={nextVideoRef}
                 src={getVideoSrc(upcomingVideoIndex)}
+                preload="none"
                 loop
                 muted
                 id="current-video"
@@ -132,6 +135,7 @@ const Hero = () => {
                 </button>
                 <video
                   src={getVideoSrc(currentIndex)}
+                  preload="none"
                   autoPlay
                   loop
                   controls
@@ -145,6 +149,7 @@ const Hero = () => {
             src={getVideoSrc(
               currentIndex === totalVideos - 1 ? 1 : currentIndex
             )}
+            preload="none"
             autoPlay
             loop
             muted
